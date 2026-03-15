@@ -1,6 +1,6 @@
 <?php
 
-function zigzag($arr) {
+function zigzag(array $arr): bool {
     $n = count($arr);
 
     if ($n <= 2) {

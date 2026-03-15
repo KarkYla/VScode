@@ -1,6 +1,6 @@
 <?php
 
-function sumDiagonal($matrix) {
+function sumDiagonal(array $matrix): int {
 
     $n = count($matrix);
 

@@ -1,6 +1,6 @@
 <?php
 
-function sortirovka($arr) {
+function sortirovka(array $arr): bool {
     $n = count($arr);
 
     if ($n <= 1) {
